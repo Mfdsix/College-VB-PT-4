@@ -26,6 +26,12 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -64,11 +70,71 @@ Partial Class Form1
         Me.Button4.Text = "Looping"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(30, 237)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(224, 23)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "Procedures"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(303, 26)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(224, 23)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "Function"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(303, 82)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(224, 23)
+        Me.Button7.TabIndex = 6
+        Me.Button7.Text = "Format Function"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Location = New System.Drawing.Point(303, 127)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(224, 23)
+        Me.Button8.TabIndex = 7
+        Me.Button8.Text = "Checkboxes"
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(303, 180)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(224, 23)
+        Me.Button9.TabIndex = 8
+        Me.Button9.Text = "Radio Buttons"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(303, 237)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(224, 23)
+        Me.Button10.TabIndex = 9
+        Me.Button10.Text = "Web Browser"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(282, 428)
+        Me.ClientSize = New System.Drawing.Size(627, 297)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -83,4 +149,10 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
 End Class

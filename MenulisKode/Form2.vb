@@ -10,19 +10,19 @@
         Nilai2 = TextBox2.Text
 
         If RadioButton1.Checked = True Then
-            TextBox2.Text = Nilai1 + Nilai2
+            TextBox3.Text = Nilai1 + Nilai2
         End If
 
         If RadioButton2.Checked = True Then
-            TextBox2.Text = Nilai1 - Nilai2
+            TextBox3.Text = Nilai1 - Nilai2
         End If
 
         If RadioButton3.Checked = True Then
-            TextBox2.Text = Nilai1 * Nilai2
+            TextBox3.Text = Nilai1 * Nilai2
         End If
 
         If RadioButton4.Checked = True Then
-            TextBox2.Text = Nilai1 / Nilai2
+            TextBox3.Text = Nilai1 / Nilai2
         End If
     End Sub
 End Class

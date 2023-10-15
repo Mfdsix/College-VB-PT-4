@@ -7,7 +7,7 @@
 
         Do
             n += 1
-            sum += 1
+            sum += n
             ListBox1.Items.Add(n & vbTab & sum)
             If n = 100 Then
                 Exit Do
